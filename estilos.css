@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+nav {
+  width: 200px;
+}
+ul {
+  /*outline: 1px solid yellow;*/
+  list-style: none;
+  /*Quitando los margenes que vienen por defecto*/
+  margin: 0;
+  padding: 0;
+  /*Crea un espacio entre el texto y la etiqueta que la contiene*/
+  line-height: 30px;
+}
+li {
+  /*outline: 1px solid red;*/
+  background: #F5F5F0;
+}
+/*Estados de los enlaces: Link - Visited - Hover - Active --> Nemotecnia LoVe HAte*/
+a {
+  /*outline: 1px solid green;*/
+  /*Con display la etiqueta en linea se vuelve en bloque
+  transformando su naturaleza*/
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
+}
+a:hover {
+  background: #E0E0D1;
+}
+a:active {
+  background: #333;
+  color: #FFF;
+}
+ul li:first-child {
+  background: #F9A91A;
+}
+ul li:first-child a {
+  color: #FFF;
+}
+ul li:first-child a:hover {
+  color: #000;
+}
+ul li:first-child a:active {
+  color: #FFF;
+}
